@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "766005103635",
+    "project_id": "react-native-signin-d951f",
+    "storage_bucket": "react-native-signin-d951f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766005103635:android:bded49176a1af1e391c3e6",
+        "android_client_info": {
+          "package_name": "com.firebase_messageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766005103635-t77hi70uv48i2tm6qu2gcurj6hsk1iqc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebase_messageapp",
+            "certificate_hash": "6b8c3f011ff98f6f0039140528186a84f7b7fec3"
+          }
+        },
+        {
+          "client_id": "766005103635-qc6holbank1no2h9eipn068g9svqsqhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCABtsiWuyVrMUcvlfxZz-mwlQhshD4oBA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766005103635-qc6holbank1no2h9eipn068g9svqsqhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
