@@ -15,14 +15,12 @@ const SplashScreen = ({navigation}) => {
     getAuthToken();
   }, []);
   return (
-    <>
-      <View style={{flex: 1, justifyContent: 'center'}}>
-        <Image
-          source={require('./../Assets/Images/logo.jpeg')}
-          style={{height: 128, width: 128, alignSelf: 'center'}}
-        />
-      </View>
-    </>
+    <View style={{flex: 1, justifyContent: 'center'}}>
+      <Image
+        source={require('./../Assets/Images/logo.jpeg')}
+        style={{height: 128, width: 128, alignSelf: 'center'}}
+      />
+    </View>
   );
 };
 

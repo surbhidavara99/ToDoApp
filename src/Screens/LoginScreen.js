@@ -39,8 +39,8 @@ const LoginScreen = ({navigation}) => {
   };
 
   return (
-    <>
-      <SafeAreaView style={{backgroundColor: '#FFFF', flex: 1}}>
+  
+      <SafeAreaView style={{backgroundColor: '#FFFF', flex: 1}} testID={"welcome"}>
         <View style={{alignSelf: 'center', marginTop: 20}}>
           <Image
             source={require('../Assets/Images/logo.jpeg')}
@@ -103,6 +103,7 @@ const LoginScreen = ({navigation}) => {
               marginHorizontal: 10,
             }}>
             <TouchableOpacity
+            testID='btngoogleLogin'
               style={{borderColor: '#dedede', borderWidth: 2}}
               onPress={() =>
                 onGoogleButtonPress().then(data => {
@@ -254,7 +255,7 @@ const LoginScreen = ({navigation}) => {
           </Modal>
         </View> */}
       </SafeAreaView>
-    </>
+   
   );
 };
 
